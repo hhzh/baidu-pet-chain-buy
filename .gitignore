@@ -1,0 +1,47 @@
+bin
+.metadata
+PLTLOG
+logs
+work
+out
+
+*.class
+
+# package file
+*.jar
+*.war
+*.ear
+
+#kdiff3 ignore
+*.orig
+
+# maven ignore
+target/
+
+#eclipse ignore
+.settings/
+.project
+.classpatch
+.claspath
+
+# idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+#temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+*.pyc
+*.cpython-36.pyc
+.idea/vcs.xml
